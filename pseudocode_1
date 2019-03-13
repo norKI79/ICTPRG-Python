@@ -1,0 +1,16 @@
+collect value1
+collect value2
+
+check if value1 and value2 are integers
+
+store x1 = value1*value2
+
+store x2 = value1+value2
+
+store x3 = value1-value2
+
+store x4 = value1/value2
+
+x5 = x1 + x2 + x3 + x4
+
+if x5 mod 2 != 0 output x5
