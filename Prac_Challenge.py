@@ -17,7 +17,10 @@ while(correct_guess == False and guesses < 7):
     if(guess==rn1):
         correct_guess = True
     else:
-        print("Incorrect try again: \n")
+        if(guess < rn1):
+            print("No its greater\n")
+        else:
+            print("No its less\n")
         guesses=guesses+1
         
 if(correct_guess==False):
