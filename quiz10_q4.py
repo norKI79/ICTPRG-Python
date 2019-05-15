@@ -37,5 +37,23 @@ def PrintBoxByWidth(wd):
     print()
     for x in range(0,wd):
         print("x", end='')
-        
-PrintBoxByWidth(20)
+
+
+def PrintBoxByWidth2(ch,n):
+    if(ch=='x'):
+        for x in range(0,n):
+            print('x', end='')
+    elif(ch=='o'):
+         for x in range(0,n):
+            print('o', end='')
+    elif(ch==''):
+        for x in range(0,n):
+            print(' ', end='')
+    return
+
+PrintBoxByWidth2('x',50)
+print()
+PrintBoxByWidth2('o',50)
+print()
+PrintBoxByWidth2('x',50)
+print()
